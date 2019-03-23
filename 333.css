@@ -1,0 +1,9 @@
+@-webkit-keyframes myfirst
+{
+    from {background: red;}
+    to {background: yellow;}
+}
+div
+{
+    -webkit-animation: myfirst 5s; 
+}

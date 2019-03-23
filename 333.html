@@ -1,0 +1,17 @@
+<html>
+    <head>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link rel="stylesheet" href="333.css" type="text/css" />
+    </head>
+    <body>
+            
+            <div id="blog-post-demo">
+                    <blog-post
+                    v-for="post in posts"
+                    v-bind:keyy="post.id"
+                    v-bind:title="post.title"
+                  ></blog-post>
+            </div>
+            <script src="333.js"></script>
+    </body>
+</html>
